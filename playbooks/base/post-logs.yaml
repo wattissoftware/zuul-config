@@ -3,4 +3,4 @@
   roles:
     - generate-zuul-manifest
     - role: upload-logs
-      zuul_log_url: "http://zuullogs.wattissoftware.com"
+      zuul_log_url: "https://zuullogs.wattissoftware.com"
