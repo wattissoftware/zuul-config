@@ -2,5 +2,5 @@
   gather_facts: False
   roles:
     - generate-zuul-manifest
-      #    - role: upload-logs
-      #zuul_log_url: "http://localhost:8000"
+    - role: upload-logs
+      zuul_log_url: "http://zuullogs.wattissoftware.com"
