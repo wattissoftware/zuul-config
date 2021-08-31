@@ -6,7 +6,7 @@
       jobs: []
 
 - project:
-    name: zuul-config
+    name: wattissoftware/zuul-config
     check:
       jobs:
         - noop
