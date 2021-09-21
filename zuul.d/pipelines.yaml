@@ -25,21 +25,21 @@
       github:
         #check: 'in_progress'
         status: 'pending'
-        comment: false
+        comment: true
     success:
       github:
         #check: 'success'
         status: 'success'
-        comment: false
+        comment: true
     failure:
       github:
         #check: 'failure'
         status: 'failure'
-        comment: false
+        comment: true
     dequeue:
       github:
         #check: cancelled
-        comment: false
+        comment: true
 
 - pipeline:
     name: gate
@@ -85,22 +85,22 @@
       github:
         #check: 'in_progress'
         status: 'pending'
-        comment: false
+        comment: true
     success:
       github:
         #check: 'success'
         status: 'success'
-        comment: false
+        comment: true
         merge: true
     failure:
       github:
         #check: 'failure'
         status: 'failure'
-        comment: false
+        comment: true
     dequeue:
       github:
         #check: cancelled
-        comment: false
+        comment: true
     window-floor: 20
     window-increase-factor: 2
 
