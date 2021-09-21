@@ -1,7 +1,12 @@
+- hosts: localhost
+  roles:
+    - role: emit-job-header
+      zuul_log_url: "https://zuullogs.wattissoftware.com"
+
 - hosts: all
   roles:
     - start-zuul-console
     - prepare-build-volume
-    - emit-job-header
+    - log-inventory
     - add-build-sshkey
     - prepare-workspace-openshift
