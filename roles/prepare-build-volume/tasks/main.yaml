@@ -1,0 +1,4 @@
+- name: Prepare home directory
+  shell: |
+    set -ex
+    sudo -n chown {{ ansible_user }}:{{ ansible_user }} {{ ansible_user_dir }}
