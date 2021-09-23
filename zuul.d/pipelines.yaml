@@ -64,6 +64,7 @@
         label: gate
         open: True
         current-patchset: True
+    post-review: true
     trigger:
       github:
         - event: pull_request_review
