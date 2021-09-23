@@ -19,5 +19,5 @@
     timeout: 1800
     nodeset:
       nodes:
-        - name: pod-ubuntu-focal
-          label: pod-ubuntu-focal
+        - name: pod-ubuntu-focal-1c4g
+          label: pod-ubuntu-focal-1c4g
