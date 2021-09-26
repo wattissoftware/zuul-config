@@ -96,7 +96,7 @@
         #check: 'success'
         status: 'success'
         comment: true
-        #merge: true
+        merge: true
     failure:
       github:
         #check: 'failure'
